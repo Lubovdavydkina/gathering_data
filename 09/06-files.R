@@ -6,7 +6,7 @@ setwd("test")
 
 # Скачаем в него файл
 url <- "https://data.baltimorecity.gov/api/views/dz54-2aru/rows.csv?accessType=DOWNLOAD"
-download.file(url, destfile="./rows.csv", method="curl")
+download.file(url, destfile="./rows.csv", method="curl") 
 
 # Посмотрим список файлов в текущем каталоге
 list.files(".")
